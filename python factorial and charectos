@@ -22,3 +22,19 @@ print("Alphabet:",alphabet)
 
 
 
+3#write a program to reverse a string and check wheather its is palindrom or not.
+
+
+text= str(input())
+rev_text=""
+for j in text:
+    rev_text=j+rev_text
+    print(rev_text)
+    print("reversed text:",rev_text)
+    if text==rev_text:
+        print("yes,the given string is pallindrom")
+    else:
+        print("no , the given string is not a pallindrom")
+
+
+
